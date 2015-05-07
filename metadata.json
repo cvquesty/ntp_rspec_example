@@ -1,0 +1,26 @@
+{
+  "author": "Jerald Sheets",
+  "checksums": {
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "files/etc_ntp_step-tickers": "2fc2e963e3061ce31c158f82604a1f21",
+    "manifests/install.pp": "5b2d706c7e277ea635e8a2a6f7cfe62c",
+    "files/etc_ntp.conf": "2d2cb2ed93863ad3fd9c4c7ba32b35e4",
+    "manifests/service.pp": "c51f57ed66e80cd9c1f8c9d40ac95617",
+    "Modulefile": "418af9ecea0cda54237b6a1d8c2dfeb8",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests/init.pp": "4a7666d02e4a3d43324f16a37c8802e9",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.markdown": "0971b6c617cf204e1fc6fc875dbfa78e",
+    "manifests/init.pp": "17ed4423386fac8a53a14c9c200a36c6",
+    "manifests/config.pp": "bfb09f5f5f4673e9f508d2a9e8329a6c"
+  },
+  "dependencies": [],
+  "description": "Basic Modules to share with customers in PE engagements",
+  "license": "GPL v2+",
+  "name": "shadojsheets-ntp",
+  "project_page": "",
+  "source": "",
+  "summary": "Generic Module to Manage NTP Settings",
+  "types": [],
+  "version": "0.1.0"
+}
