@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'puppetlabs_spec_helper/module_spec_helper'
+require 'puppet_facts'
+include PuppetFacts
 
 RSpec.configure do |c|
   c.include PuppetlabsSpec::Files
@@ -26,4 +28,7 @@ RSpec.configure do |c|
   c.after :each do
     PuppetlabsSpec::Files.cleanup
   end
+
+  ENV['UNIT_TEST_PLATFORMS'] = 'default'
+  PLATFORMS = ENV['UNIT_TEST_PLATFORMS'].split(' ')
 end
