@@ -1,5 +1,65 @@
 {
+  "name": "shadojsheets-ntp",
+  "version": "0.1.0",
   "author": "Jerald Sheets",
+  "summary": "Generic Module to Manage NTP Settings",
+  "license": "GPL v2+",
+  "source": "",
+  "project_page": "",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "18.04"
+      ]
+    },
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2019",
+        "10"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.21.0 < 8.0.0"
+    }
+  ],
   "checksums": {
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
     "files/etc_ntp_step-tickers": "2fc2e963e3061ce31c158f82604a1f21",
@@ -14,13 +74,11 @@
     "manifests/init.pp": "17ed4423386fac8a53a14c9c200a36c6",
     "manifests/config.pp": "bfb09f5f5f4673e9f508d2a9e8329a6c"
   },
-  "dependencies": [],
   "description": "Basic Modules to share with customers in PE engagements",
-  "license": "GPL v2+",
-  "name": "shadojsheets-ntp",
-  "project_page": "",
-  "source": "",
-  "summary": "Generic Module to Manage NTP Settings",
-  "types": [],
-  "version": "0.1.0"
+  "types": [
+
+  ],
+  "pdk-version": "2.5.0",
+  "template-url": "pdk-default#2.5.0",
+  "template-ref": "tags/2.5.0-0-g369d483"
 }
